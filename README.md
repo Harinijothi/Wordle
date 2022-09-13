@@ -13,3 +13,6 @@ play_wordle.py uses Selenium to actually play Wordle without human input. There 
 In the botfights directory, you can see my submission to the Botfights (https://botfights.io/game/wordle) Wordle bot competitition. Specifically, it is in the sample-bot.py file.
 
 The algorithm I used in play_wordle.py for the websites tries to minimize the worst-case length of the narrowed down answer list after a certain guess. This has more consistent performance. For the botfights submission, I tried to minimize the average (expected) length of the narrowed down answer list after a certain guess. While there is more variance to this algorithm, it leads to the lowest number of average guesses per wordle puzzle, which is ultimately what the competition tests. This algorithm takes forever to run for botfights (2+ hours for 1000 words in the competition), but guesses the correct answer (from 13,000 possible words) in 4.1 tries on average. Pretty solid!
+
+
+this is a sample project
